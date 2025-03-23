@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Mohamed Ali Boussarsar</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-icons.css" rel="stylesheet" />
+    <link href="css/templatemo-topic-listing.css" rel="stylesheet" />
+  </head>
+
+  <body id="top">
+    <main>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <!-- Logo et nom du site -->
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="C:\Users\MSI\Dropbox\PC\Desktop\weep\templatemo_590_topic_listing\images\sustainable-energy.png"
+              alt="Logo"
+              style="width: 50px; height: 50px"
+            />
+            <span>Boussarsar</span>
+          </a>
+          <!-- Bouton "Contacter" en haut à droite avec icône -->
+          <div class="d-flex align-items-center ms-auto">
+            <!-- Utilisation de ms-auto pour pousser à droite -->
+            <a class="btn btn-outline-dark" href="contact.html">
+              <!-- Changement de couleur en noir -->
+              <i class="bi-envelope me-2"></i>
+              <!-- Icône de contact -->
+              Contacter
+            </a>
+          </div>
+
+          <!-- Bouton toggler pour les écrans mobiles -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Menu de navigation -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-lg-5 me-lg-auto">
+              <li class="nav-item">
+                <a class="nav-link click-scroll" href="#section_1"
+                  >Tableau de Bord</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link click-scroll" href="#section_2">expliquer</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link click-scroll" href="#section_3">Calcule</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link click-scroll" href="#section_4"
+                  >Comprendre</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link click-scroll" href="#section_5"
+                  >Prédiction
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section
+        class="hero-section d-flex justify-content-center align-items-center"
+        id="section_1"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-12 mx-auto">
+              <h1 class="text-white text-center">
+                Compeur d'energie intelligent
+              </h1>
+
+              <h6 class="text-center">
+                Des solutions intelligentes pour des coûts énergétiques réduits.
+              </h6>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="featured-section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6 col-12">
+              <div class="custom-block custom-block-overlay">
+                <div class="d-flex flex-column h-100">
+                  <img
+                    src="images/businesswoman-using-tablet-analysis.jpg"
+                    class="custom-block-image img-fluid"
+                    alt=""
+                  />
+                  <div class="custom-block-overlay-text d-flex flex-column">
+                    <div>
+                      <h5 class="text-white mb-2">
+                        Tableau de Bord en Temps Réel : Suivi des Mesures
+                        Électriques
+                      </h5>
+                      <br />
+                      <p class="text-white">
+                        Cette page affiche en temps réel les données de tension,
+                        courant, puissance et autres mesures électriques reçues
+                        de votre appareil ESP32 via MQTT.
+                      </p>
+                      <br />
+                    </div>
+                    <div class="text-center">
+                      <!-- Centrer uniquement le bouton -->
+                      <a
+                        href="http://localhost:3000"
+                        class="btn custom-btn mt-2 mt-lg-3"
+                        style="padding: 15px 30px; font-size: 18px"
+                        >Ouvrir</a
+                      >
+                    </div>
+                  </div>
+                  <div class="section-overlay"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq-section section-padding" id="section_2">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-12">
+              <h2 class="mb-4">Foire Aux Questions</h2>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="col-lg-5 col-12">
+              <img
+                src="images/energie-renouvelable.png"
+                class="img-fluid"
+                alt="FAQs"
+              />
+            </div>
+
+            <div class="col-lg-6 col-12 m-auto">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      Quelle est la différence entre les deux pages de calcul ?
+                    </button>
+                  </h2>
+
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Notre application propose deux méthodes de calcul de la
+                      consommation d'énergie :
+                      <ul>
+                        <li>
+                          <strong>Calcul par mois :</strong>
+                          Cette page vous permet de calculer la consommation
+                          d'énergie en sélectionnant un mois spécifique. Elle
+                          est idéale si vous souhaitez analyser votre
+                          consommation mensuelle.
+                        </li>
+                        <li>
+                          <strong>Calcul par période personnalisée :</strong>
+                          Cette page vous permet de définir une période précise
+                          (date de début et de fin) pour calculer la
+                          consommation. Elle est utile si vous avez besoin d'une
+                          analyse sur une période spécifique (par exemple, une
+                          semaine ou plusieurs mois).
+                        </li>
+                      </ul>
+                      <p class="mt-3">
+                        <strong>Vous ne savez pas laquelle choisir ?</strong>
+                        <br />
+                        Si vous souhaitez analyser votre consommation pour un
+                        mois en particulier, utilisez la page de
+                        <strong>calcul par mois</strong>. Si vous avez besoin
+                        d'une analyse sur une période personnalisée, utilisez la
+                        page de <strong>calcul par période</strong>.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Comment fonctionne le calcul par mois ?
+                    </button>
+                  </h2>
+
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Le calcul par mois vous permet d'estimer la consommation
+                      d'énergie pour un mois spécifique. Voici comment cela
+                      fonctionne :
+                      <ul>
+                        <li>Sélectionnez un mois dans le menu déroulant.</li>
+                        <li>
+                          Choisissez le type de client (résidentiel ou non
+                          résidentiel).
+                        </li>
+                        <li>
+                          Cliquez sur "Calculer" pour obtenir :
+                          <ul>
+                            <li>La consommation totale en kWh.</li>
+                            <li>Le coût total (hors taxes et avec TVA).</li>
+                            <li>
+                              Un graphique montrant la consommation quotidienne.
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Comment fonctionne le calcul par période personnalisée ?
+                    </button>
+                  </h2>
+
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Le calcul par période personnalisée vous permet de définir
+                      une plage de dates précise pour estimer la consommation
+                      d'énergie. Voici comment cela fonctionne :
+                      <ul>
+                        <li>Entrez une date de début et une date de fin.</li>
+                        <li>
+                          Choisissez le type de client (résidentiel ou non
+                          résidentiel).
+                        </li>
+                        <li>
+                          Cliquez sur "Calculer" pour obtenir :
+                          <ul>
+                            <li>La consommation totale en kWh.</li>
+                            <li>Le coût total (hors taxes et avec TVA).</li>
+                            <li>
+                              Un graphique montrant la consommation sur la
+                              période sélectionnée.
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour"
+                      aria-expanded="false"
+                      aria-controls="collapseFour"
+                    >
+                      Puis-je utiliser les deux méthodes de calcul ?
+                    </button>
+                  </h2>
+
+                  <div
+                    id="collapseFour"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Oui, vous pouvez utiliser les deux méthodes de calcul en
+                      fonction de vos besoins :
+                      <ul>
+                        <li>
+                          Utilisez le <strong>calcul par mois</strong> pour une
+                          analyse mensuelle rapide.
+                        </li>
+                        <li>
+                          Utilisez le
+                          <strong>calcul par période personnalisée</strong> pour
+                          une analyse plus flexible et détaillée.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="explore-section section-padding" id="section_3">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h2 class="mb-4" style="color: #a4d9d6">
+                Calculez et Visualisez Votre Consommation d'Énergie
+              </h2>
+              <br />
+              <br />
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid"></div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="tab-content" id="myTabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="design-tab-pane"
+                  role="tabpanel"
+                  aria-labelledby="design-tab"
+                  tabindex="0"
+                >
+                  <div class="row">
+                    <!-- Premier bloc : Consommation Mensuelle -->
+                    <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0">
+                      <div class="custom-block bg-white shadow-lg">
+                        <a href="http://127.0.0.1:5001">
+                          <div class="d-flex">
+                            <div>
+                              <h5 class="mb-2">Consommation Mensuelle</h5>
+                              <p class="mb-0">
+                                Sélectionnez un mois pour obtenir une estimation
+                                détaillée de votre consommation, y compris le
+                                coût total avec TVA, et visualisez les données
+                                sous forme de courbe mensuelle.
+                              </p>
+                            </div>
+                          </div>
+                          <!-- Centrer l'image -->
+                          <div
+                            style="
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              height: 200px;
+                            "
+                          >
+                            <img
+                              src="C:\Users\MSI\Dropbox\PC\Desktop\weep\templatemo_590_topic_listing\8790331.png"
+                              class="custom-block-image img-fluid"
+                              alt=""
+                              style="width: 200px; height: auto"
+                            />
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <!-- Deuxième bloc : Consommation par Période -->
+                    <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0">
+                      <div class="custom-block bg-white shadow-lg">
+                        <a href="http://127.0.0.1:5002">
+                          <div class="d-flex">
+                            <div>
+                              <h5 class="mb-2">Consommation par Période</h5>
+                              <p class="mb-0">
+                                Sélectionnez une période pour obtenir une
+                                estimation détaillée de votre consommation et
+                                visualiser les données sous forme de courbe.
+                              </p>
+                            </div>
+                          </div>
+                          <!-- Centrer l'image -->
+                          <div
+                            style="
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              height: 200px;
+                            "
+                          >
+                            <img
+                              src="C:\Users\MSI\Dropbox\PC\Desktop\weep\templatemo_590_topic_listing\11742040 (1).png"
+                              class="custom-block-image img-fluid"
+                              alt=""
+                              style="width: 200px; height: auto"
+                            />
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="timeline-section section-padding" id="section_4">
+        <div class="section-overlay"></div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h2 class="text-white mb-4">
+                La prédiction d'énergie , Comment ça marche ?
+              </h2>
+            </div>
+
+            <div class="col-lg-10 col-12 mx-auto">
+              <div class="timeline-container">
+                <ul
+                  class="vertical-scrollable-timeline"
+                  id="vertical-scrollable-timeline"
+                >
+                  <div class="list-progress">
+                    <div class="inner"></div>
+                  </div>
+
+                  <!-- Étape 1 : Choisissez votre type de prédiction -->
+                  <li class="mb-5">
+                    <h4 class="text-white mb-3">
+                      Étape 1 : Choisissez votre type de prédiction
+                    </h4>
+
+                    <p class="text-white">
+                      Notre application propose deux types de prédiction : la
+                      <strong>prédiction à court terme</strong> pour estimer la
+                      consommation d'énergie sur quelques minutes , et la
+                      <strong>prédiction à long terme</strong> pour des heures
+                      ou des jours. Sélectionnez celle qui correspond à vos
+                      besoins.
+                    </p>
+
+                    <div class="icon-holder">
+                      <i class="bi-sliders"></i>
+                      <!-- Icône pour choisir une option -->
+                    </div>
+                  </li>
+
+                  <!-- Étape 2 : Saisissez les informations nécessaires -->
+                  <li class="mb-5">
+                    <h4 class="text-white mb-3">
+                      Étape 2 : Saisissez les informations nécessaires
+                    </h4>
+
+                    <p class="text-white">
+                      Pour obtenir une prédiction, vous devez fournir une plage
+                      de dates (début et fin) et votre type de client
+                      (résidentiel ou non-résidentiel). Ces informations
+                      permettent au système de calculer votre consommation
+                      d'énergie et les coûts associés.
+                    </p>
+
+                    <div class="icon-holder">
+                      <i class="bi-calendar-check"></i>
+                      <!-- Icône pour saisir des informations -->
+                    </div>
+                  </li>
+
+                  <!-- Étape 3 : Obtenez vos résultats -->
+                  <li class="mb-5">
+                    <h4 class="text-white mb-3">
+                      Étape 3 : Obtenez vos résultats
+                    </h4>
+
+                    <p class="text-white">
+                      Une fois les informations soumises, le système génère la
+                      consommation estimée en kWh, les coûts totaux (hors taxes,
+                      TVA, et total incluant la TVA), ainsi qu'un graphique
+                      détaillé de la consommation prévue. Utilisez ces résultats
+                      pour planifier et optimiser votre consommation d'énergie.
+                    </p>
+
+                    <div class="icon-holder">
+                      <i class="bi-bar-chart-line"></i>
+                      <!-- Icône pour les résultats et graphiques -->
+                    </div>
+                  </li>
+
+                  <!-- Étape 4 : Réentraînez le modèle (optionnel) -->
+                  <li class="mb-5">
+                    <h4 class="text-white mb-3">
+                      Étape 4 : Réentraînez le modèle (optionnel)
+                    </h4>
+
+                    <p class="text-white">
+                      Pour améliorer la précision des prédictions
+                      <strong>à long terme</strong>, vous pouvez réentraîner le
+                      modèle avec les dernières données disponibles. Cliquez sur
+                      le bouton "Réentraîner le modèle" pour mettre à jour le
+                      système.<br />
+                      <strong>Note :</strong> Cette option est uniquement
+                      disponible pour la prédiction à long terme, car la
+                      prédiction à court terme effectue automatiquement
+                      l'entraînement et le test à chaque prédiction.
+                    </p>
+
+                    <div class="icon-holder">
+                      <i class="bi-arrow-repeat"></i>
+                      <!-- Icône pour le réentraînement -->
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-12 text-center mt-5">
+              <p class="text-white">
+                Vous avez des questions supplémentaires ?
+                <a
+                  href="contact.html"
+                  class="btn custom-btn custom-border-btn ms-3"
+                  >Contactez-nous</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="explore-section section-padding" id="section_5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h2 class="mb-4" style="color: #a4d9d6">
+                Prédisez et Visualisez Votre Consommation d'Énergie
+              </h2>
+              <br />
+              <br />
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid"></div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="tab-content" id="myTabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="design-tab-pane"
+                  role="tabpanel"
+                  aria-labelledby="design-tab"
+                  tabindex="0"
+                >
+                  <div class="row">
+                    <!-- Premier bloc : Consommation Mensuelle -->
+                    <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0">
+                      <div class="custom-block bg-white shadow-lg">
+                        <a href="http://127.0.0.1:5000">
+                          <div class="d-flex">
+                            <div>
+                              <h5 class="mb-2">
+                                Prédiction Énergétique à Long Terme
+                              </h5>
+                              <p class="mb-0">
+                                Sélectionnez une période pour obtenir une
+                                estimation de votre consommation et visualiser
+                                les données sous forme de courbe. Vous pouvez
+                                également réentraîner le modèle pour des
+                                prédictions plus précises.
+                              </p>
+                            </div>
+                          </div>
+                          <!-- Centrer l'image -->
+                          <div
+                            style="
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              height: 200px;
+                            "
+                          >
+                            <br />
+                            <img
+                              src="C:\Users\MSI\Dropbox\PC\Desktop\weep\templatemo_590_topic_listing\lamp-icon-with-artificial-neural-network-inside-WW75MD.jpg"
+                              class="custom-block-image img-fluid"
+                              alt=""
+                              style="width: 250px; height: auto"
+                            />
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <!-- Deuxième bloc : Consommation par Période -->
+                    <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0">
+                      <div class="custom-block bg-white shadow-lg">
+                        <a href="http://127.0.0.1:5005">
+                          <div class="d-flex">
+                            <div>
+                              <h5 class="mb-2">
+                                Prédiction Énergétique à Court Terme
+                              </h5>
+                              <p class="mb-0">
+                                Sélectionnez votre type d'utilisateur et
+                                choisissez entre 5, 10 ou 15 minutes pour
+                                l'intervalle de prédiction, puis cliquez sur
+                                'Prédire la consommation' pour obtenir les
+                                résultats.
+                              </p>
+                            </div>
+                          </div>
+                          <!-- Centrer l'image -->
+                          <div
+                            style="
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              height: 200px;
+                            "
+                          >
+                            <img
+                              src="C:\Users\MSI\Dropbox\PC\Desktop\weep\templatemo_590_topic_listing\images\idee.png"
+                              class="custom-block-image img-fluid"
+                              alt=""
+                              style="width: 200px; height: auto"
+                            />
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-12 mb-4 pb-2">
+            <a class="navbar-brand mb-2" href="index.html">
+              <i class="bi-back"></i>
+              <span>Boussarsar</span>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <h6 class="site-footer-title mb-3">Resources</h6>
+
+            <ul class="site-footer-links">
+              <li class="site-footer-link-item">
+                <a class="site-footer-link" href="#section_1"
+                  >Tableau de Bord</a
+                >
+              </li>
+
+              <li class="site-footer-link-item">
+                <a class="site-footer-link" href="#section_2">Expliquer</a>
+              </li>
+
+              <li class="site-footer-link-item">
+                <a class="site-footer-link" href="#section_3">Calcule</a>
+              </li>
+
+              <li class="site-footer-link-item">
+                <a class="site-footer-link" href="#section_4">Comprendre</a>
+              </li>
+              <li class="site-footer-link-item">
+                <a class="site-footer-link" href="#section_5">Prédiction</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6 mb-4 mb-lg-0">
+            <h6 class="site-footer-title mb-3">Information</h6>
+
+            <p class="text-white d-flex mb-1">
+              <a href="tel:213436355" class="site-footer-link"> 21 436 355 </a>
+            </p>
+
+            <p class="text-white d-flex">
+              <a
+                href="#"
+                onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&to=mohamedali.boussarsar@enetcom.u-sfax.tn&su=Contact%20depuis%20le%20site&body=Bonjour,', '_blank'); return false;"
+                class="site-footer-link"
+                style="white-space: nowrap"
+              >
+                mohamedali.boussarsar@enetcom.u-sfax.tn
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/click-scroll.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
